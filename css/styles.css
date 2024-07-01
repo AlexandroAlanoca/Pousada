@@ -1,0 +1,8 @@
+@font-face {
+    font-family: PlaywriteITModerna;
+    src: url(./fonts/Playwrite_IT_Moderna/PlaywriteITModerna-VariableFont_wght.ttf);
+}
+
+h1{
+    font-family: PlaywriteITModerna;
+}
