@@ -10,3 +10,28 @@ h5{
     font-family: arial;
     font-size: 60px;
 }
+
+body{
+    background-image: url("../img/pfs03975.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+section{
+    background-color: white;
+    padding: 80px 30px 80px 30px;
+
+}
+
+#home img{
+    width: 80%;
+}
+
+.acomodacao{
+    padding: 90px 300px ;
+    text-align: center;
+    color: white ;
+    background-color: rgba(0, 0, 0, 0.5);
+}
