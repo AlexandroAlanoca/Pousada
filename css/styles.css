@@ -43,9 +43,21 @@ section{
     text-decoration: underline;
 }
 
-.reservas{
+.reservas, .sobre{
     padding: 90px 300px ;
     text-align: center;
     color: white ;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mapa{
+    width: 100%;
+    height: 700px;
+    margin-top: 5%;
+}
+
+.footer-title{
+    background-color: black;
+    color: white;
+
 }
