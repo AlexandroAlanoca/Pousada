@@ -12,7 +12,7 @@
 
     <!-- Inicio da barra de navegaçao  -->
 
-    <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;" data-bs-theme="light">
+    <nav class="navbar navbar-expand-lg " style="background-color: #bbdefb;" data-bs-theme="light">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Pousada SP</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,12 +41,12 @@
     <header>
 
         <!-- Inicio do carrosel -->
-        <div id="carouselExampleCaptions" class="carousel slide">
-          <div class="carousel-indicators">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <!-- <div class="carousel-indicators"> 
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
+          </div>-->
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="img/painel1.jpg" class="d-block w-100" alt="...">
@@ -158,8 +158,8 @@
                   </div>
                 </div>
               </div>
-
             </div>
+
             <div class="col-md-6">
               <div class="card mb-3">
                 <div class="row g-0">
@@ -178,11 +178,104 @@
             </div>
           </div>
 
+          <!-- ####### área da gastronomia######## -->
 
+          <h3 class="gastronomia">Nossa culinária</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/image-campo-grande-mato-grosso-do-sul-indaia-park-hotel-5.jfif" style="height: 200px;" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div >
 
+            <div class="col-md-6">
+              <div class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/image-sao-caetano-do-sul-quality-hotel-sao-caetano-34.jfif" style="height: 200px;" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div >
+            
+          </div>
+
+          <!-- ####### Fim da gastronomia ######### -->
 
         </section>
-        <section id="reservas"></section>
+
+        <div class="row reservas">
+          <div class="col-md-12">
+            <h3>Reservas</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, odio doloremque aspernatur, provident numquam, sed consequuntur reiciendis non ad maiores fuga laboriosam. Odio reprehenderit molestiae quibusdam omnis dolor fuga officia.</p>
+          </div>
+        </div>
+
+        <section id="reservas">
+          <form class="row g-3"> 
+            <div class="col-md-6">
+              <label for="txtnome" class="form-label">Nome Completo</label> 
+              <input type="text" class="form-control" id="txtnome"> <!-- -->
+            </div>
+            <div class="col-md-6">
+              <label for="txtemail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="txtemail">
+            </div>
+            
+            <div class="col-md-3">
+              <label for="txtelefone" class="form-label">Telefone</label>
+              <input type="tel" class="form-control" id="txtelefone" placeholder="(11) 99999-9999">
+            </div>
+
+            <div class="col-md-3">
+              <label for="txtcheckin" class="form-label">Check-In</label>
+              <input type="date" class="form-control" id="txtcheckin" placeholder="Data de Entrada">
+            </div>
+
+            <div class="col-md-3">
+              <label for="txtcheckout" class="form-label">Check-Out</label>
+              <input type="date" class="form-control" id="txtcheckout" placeholder="Data de Saída">
+            </div>
+
+            <div class="col-md-3">
+              <label for="txtquarto" class="form-label">Escolha o Tipo de Quarto</label>
+              <select id="txtquarto" class="form-control">
+                <option value="Standard">Standard</option>
+                <option value="Double">Double</option>
+                <option value="Luxo">Luxo</option>
+                <option value="Master">Master</option>
+              </select>
+            </div>
+
+            <div class="col-12">
+              <label for="txtobservacao" class="form-label">Observação</label>
+              <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+            </div>
+            
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Reservar</button>
+            </div>
+          </form>
+
+        </section>
         <section id="sobre"></section>
 
         <p>&nbsp;</p>
